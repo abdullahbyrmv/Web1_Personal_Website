@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <link rel="icon" type="image/x-icon" href="../assets/favicons/question_mark.png">
+</head>
+<body>
+        <form action="mailto:abayramov14100@ada.edu.az" method="post" enctype="text/plain">
+                <fieldset>
+                    <legend>Please Answer The Questions</legend>
+
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="Please enter name">
+                            
+                            <br>
+                            <br>
+
+                        <label for="surname">Surname:</label>
+                        <input type="text" id="Surname" name="Surname" required placeholder="Please enter Surname">
+                            
+                            <br>
+                            <br>
+
+                        <label for="birth_date">Birth date:</label>
+                        
+                        <input type="date" id="birth_date" name="birth_date" required>
+                            
+                            <br>
+                            <br>
+                        
+                        <label for="gender">Gender:</label><br>
+                        <input type="radio" id="gender_male" name="gender" value="MALE" checked> <label for="gender_male">Male</label><br>
+                        <input type="radio" id="gender_female" name="gender" value="FEMALE"> <labeL for="gender_female">Female</labeL><br>
+                        <input type="radio" id="gender_other" name="gender" value="OTHER"> <label for="gender_other">Other</label><br>
+
+                        <br>
+                        <br>
+                        <label for="Film_Genre">Which film genres do you like?</label>
+
+                        <label for="genre_adventure"> <input type="checkbox" name="genre" id="genre_adventure" value="Adventure">Adventure</label>
+
+                        <label for="genre_fantasy"><input type="checkbox" name="genre" id="genre_fantasy" value="Fantasy++"> Fantasy</label>
+
+                        <label for="genre_sci-fi"><input type="checkbox" name="genre" id="genre_sci-fi" value="Sci-fi">Sci-fi</label>
+
+                        <label for="genre_comedy"> <input type="checkbox" name="genre" id="genre_comedy" value="Comedy">Comedy</label>
+
+                        <label for="genre_dedective"> <input type="checkbox" name="genre" id="genre_dedective" value="Dedective">Dedective</label>
+
+                        <label for="genre_romance"> <input type="checkbox" name="genre" id="genre_romance" value="Romance">Romance</label>
+
+                        <label for="genre_documentation"> <input type="checkbox" name="genre" id="genre_documentation" value="Documentation">Documentation</label>
+
+                        <br>
+                        <br>
+                        <input type="submit" value="Send Message">
+            </fieldset>    
+            
+        </form>
+</body>
+</html>

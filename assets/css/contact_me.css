@@ -1,0 +1,50 @@
+html {
+  background-color: #00ffff;
+}
+
+html {
+  font-family: "Kablammo", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.linkedin_and_github_photo {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linkedin {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.github {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+input[type="text"]:focus {
+  border: 3px solid aqua;
+  background-color: aqua;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

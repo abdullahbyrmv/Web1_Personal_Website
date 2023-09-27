@@ -1,0 +1,24 @@
+html {
+  background-color: #00ffff;
+}
+
+html {
+  font-family: "Kablammo", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+table,
+tr,
+td {
+  border: 1px solid darkblue;
+}

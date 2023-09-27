@@ -1,0 +1,30 @@
+html {
+  background-color: #00ffff;
+}
+
+html {
+  font-family: "Kablammo", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+hr {
+  width: 50%;
+  border: 2px dotted black;
+}
+
+li {
+  list-style-type: circle;
+}
+
+h2,
+h3,
+ul,
+p.additional_information {
+  text-align: left;
+}

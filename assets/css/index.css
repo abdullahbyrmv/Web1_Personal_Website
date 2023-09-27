@@ -41,27 +41,13 @@ body {
   padding: 10px;
 }
 
-.linkedin_and_github_photo {
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .photo:hover {
   width: 320px;
   height: 320px;
   transform: scale(1.1);
 }
 
-.linkedin {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-
-.github {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
+hr {
+  width: 64%;
+  border: 2px dashed darkblue;
 }

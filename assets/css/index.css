@@ -36,9 +36,11 @@ body {
 }
 
 #navigation_bar a {
-  color: blue;
+  display: block;
+  color: rgb(189, 194, 255);
   text-decoration: none;
   padding: 10px;
+  text-align: center;
 }
 
 .photo:hover {
@@ -50,4 +52,19 @@ body {
 hr {
   width: 64%;
   border: 2px dashed darkblue;
+}
+
+li {
+  display: inline-block;
+  height: 25px;
+  width: 266px;
+  list-style-type: none;
+  background-color: rgb(66, 63, 216);
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+li:hover {
+  background-color: black;
+  color: antiquewhite;
 }

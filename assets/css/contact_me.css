@@ -14,22 +14,10 @@ body {
 }
 
 .linkedin_and_github_photo {
-  text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.linkedin {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-
-.github {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  font-size: 50px;
 }
 
 input[type="text"]:focus {

@@ -1,2 +1,2 @@
 Personal Website
-https://abdullahbyrmv.github.io/Web1_Online_Resume/
+https://abdullahbyrmv.github.io/Web1_Personal_Website/

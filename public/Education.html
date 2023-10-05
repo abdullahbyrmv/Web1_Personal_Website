@@ -10,6 +10,8 @@
       href="../assets/favicons/Education.png"
     />
     <link rel="stylesheet" href="../assets/css/education.css" />
+    <link rel="stylesheet" href="../assets/css/navigation_bar.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,34 +20,59 @@
     />
   </head>
   <body>
-    <h2>Education</h2>
+    <div>
+      <ul class="navigation_list" id="navigation_bar">
+        <li class="navigation_list">
+          <a href="../index.html" target="_self">Home</a>
+        </li>
+        <li class="navigation_list">
+          <a class="active" href="Education.html" target="_self">Education</a>
+        </li>
+        <li class="navigation_list">
+          <a href="Contact_Me.html" target="_self">Contact Me</a>
+        </li>
+        <li class="navigation_list">
+          <a href="Questionnaire.html" target="_self">Questionnaire</a>
+        </li>
+        <li class="navigation_list">
+          <a href="Resume.html" target="_self">Resume</a>
+        </li>
+      </ul>
+    </div>
 
-    <img src="../assets/images/ada.png" alt="" width="200" />
+    <div class="content">
+      <img src="../assets/images/ada.png" alt="" width="200" />
 
-    <table>
-      <tr>
-        <td>
-          <h3>Ada University, Baku, Azerbaijan</h3>
+      <table>
+        <tr>
+          <td>
+            <h3>Ada University, Baku, Azerbaijan</h3>
 
-          <h3>Bachelor of Science in İnformation Technology (CGPA 3.56)</h3>
-          <ul>
-            <li>
-              Selected coursework: Calculus I, Calculus II, Programming
-              Principles I, Programming Principles II, Introduction to ICT and
-              Engineering, Writing and Information Literacy I, Writing and
-              Information Literacy II, Discrete Structures, Competitive
-              Programming I, Leadership, Data Structures and Algorithms, IT
-              systems: Hardware and Software, Linear Algebra.
-            </li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h3>Sumgait City Secondary School Number 36, Sumgait, Azerbaijan</h3>
-          <h3>TQDK score: 551,3</h3>
-        </td>
-      </tr>
-    </table>
+            <h3>Bachelor of Science in İnformation Technology (CGPA 3.56)</h3>
+            <ul>
+              <li>
+                Selected coursework: Calculus I, Calculus II, Programming
+                Principles I, Programming Principles II, Introduction to ICT and
+                Engineering, Writing and Information Literacy I, Writing and
+                Information Literacy II, Discrete Structures, Competitive
+                Programming I, Leadership, Data Structures and Algorithms, IT
+                systems: Hardware and Software, Linear Algebra.
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3>
+              Sumgait City Secondary School Number 36, Sumgait, Azerbaijan
+            </h3>
+            <h3>TQDK score: 551,3</h3>
+          </td>
+        </tr>
+      </table>
+      <footer class="my_footer">
+        ©2023 Abdullah Bayramov | All Rights Reserved
+      </footer>
+    </div>
   </body>
 </html>

@@ -6,6 +6,8 @@
     <title>My Resume</title>
     <link rel="icon" type="image/x-icon" href="../assets/favicons/Resume.png">
     <link rel="stylesheet" href="../assets/css/resume.css" />
+    <link rel="stylesheet" href="../assets/css/navigation_bar.css"/>
+    <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,8 +16,29 @@
     />
   </head>
   <body>
-    <h1>Abdullah Bayramov</h1>
+
+    <ul class="navigation_list" id="navigation_bar">
+      <li class="navigation_list">
+        <a href="../index.html" target="_self">Home</a>
+      </li>
+      <li class="navigation_list">
+        <a href="Education.html" target="_self">Education</a>
+      </li>
+      <li class="navigation_list">
+        <a href="Contact_Me.html" target="_self">Contact Me</a>
+      </li>
+      <li class="navigation_list">
+        <a href="Questionnaire.html" target="_self"
+          >Questionnaire</a
+        >
+      </li>
+      <li class="navigation_list">
+        <a class="active" href="Resume.html" target="_self">Resume</a>
+      </li>
+    </ul>
     
+    <div class="content">
+    <h1>Abdullah Bayramov</h1>  
     <p>Sumgait City, 18th Microregion, Cherkassy Street | Sumgait, Azerbaijan AZ 5011</p>
         +994559892640 | <a href="https://abayramov14100@ada.edu.az">abayramov14100@ada.edu.az</a> | <a href="https://www.linkedin.com/in/abdullahbyrmv">www.linkedin.com/in/abdullahbyrmv</a></p>
         <hr/>
@@ -79,5 +102,9 @@
         <p class="additional_information"><b>Languages:</b> Azerbaijani (native); English (fluent); Turkish (Professional working proficiency).</p>
         <p class="additional_information"><b>Technical Skills:</b> Java, C++, C, MySQL, Data Structures and Algorithms, HTML, Spring Boot.</p>
         <p class="additional_information"><b>Interests:</b> Football, Coding, Mathematics.</p>
+        <footer class="my_footer">
+          ©2023 Abdullah Bayramov | All Rights Reserved
+        </footer>
+      </div>
   </body>
 </html>

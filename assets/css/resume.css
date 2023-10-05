@@ -8,7 +8,6 @@ html {
 }
 
 body {
-  width: 90%;
   margin: 0 auto;
   text-align: center;
 }
@@ -27,4 +26,9 @@ h3,
 ul,
 p.additional_information {
   text-align: left;
+}
+
+.content {
+  margin-top: 75px;
+  margin-bottom: 50px;
 }

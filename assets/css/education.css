@@ -8,7 +8,6 @@ html {
 }
 
 body {
-  width: 90%;
   margin: 0 auto;
   text-align: center;
 }
@@ -21,4 +20,8 @@ table,
 tr,
 td {
   border: 1px solid darkblue;
+}
+
+.content {
+  margin-top: 75px;
 }

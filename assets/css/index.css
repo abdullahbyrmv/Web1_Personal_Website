@@ -42,78 +42,8 @@ td {
   margin-right: 10%;
 }
 
-#navigation_bar {
-  background-color: rgb(163, 76, 66);
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-#navigation_bar li {
-  display: inline-block;
-  margin: 0;
-}
-
-#navigation_bar a {
-  display: block;
-  color: black;
-  padding: 20px;
-  text-align: center;
-}
-
 .photo:hover {
   width: 320px;
   height: 320px;
   transform: scale(1.1);
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #ac5858;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-li {
-  color: white;
-  float: left;
-  border-right: 1px solid white;
-  background-color: rgb(163, 76, 66);
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-#navigation_bar a:hover:not(.active) {
-  background-color: darkred;
-  color: rgb(227, 113, 113);
-}
-
-a.active {
-  background-color: #580303;
-}
-
-#navigation_bar a.active {
-  color: white;
-}
-
-.index_footer {
-  display: block;
-  position: fixed;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
-  bottom: 0;
-  width: 100%;
-  left: 0;
-  background-color: blue;
-  color: white;
 }

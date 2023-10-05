@@ -15,8 +15,8 @@
   </head>
   <body>
 <p>
-    <ul id="navigation_bar" class="center_elements">
-      <li><a href="index.html" target="_blank">Home</a></li>
+    <ul id="navigation_bar">
+      <li><a class="active" href="index.html" target="_blank">Home</a></li>
       <li><a href="./public/Education.html" target="_blank">Education</a></li>
       <li><a href="./public/Contact_Me.html" target="_blank">Contact Me</a></li>
       <li>
@@ -25,42 +25,25 @@
       <li><a href="./public/Resume.html" target="_blank">Resume</a></li>
     </ul>
   </p>
-    <table cellpadding="15">
+
+  <div id="photo_and_about_div">
+    <table class="photo_and_about">
       <tr>
         <td>
-          <img
-            class="photo"
-            src="./assets/images/circle_photo.jpg"
-            alt="Profile Picture"
-            width="300"
-          />
+        <img class="photo" src="./assets/images/circle_photo.jpg">
         </td>
-
-        <td>
-          <h2>Abdullah Bayramov</h2>
-          <p>
-            <b>About Me:</b> Hello, my name is Abdullah Bayramov. I am 20 yers
-            old. I born and raised in Sumgayit. I have graduated from school
-            number 36 and got in BSCE (Computer Engineering) in ADA University
-            and then I changed my major to BSIT (Information Technology).
-            Currently I am interested in programming and I my favorite
-            programming language is JAVA.
-          </p>
-
-          <hr>
-
-          <h2>Additional Information</h2>
-          <p>
-            <b>Languages:</b> Azerbaijani (native); English (fluent); Turkish
-            (Professional working proficiency).
-          </p>
-          <p>
-            <b>Technical Skills:</b> Java, C++, C, MySQL, Data Structures and
-            Algorithms, HTML, Spring Boot.
-          </p>
-          <p><b>Interests:</b> Football, Coding, Mathematics.</p>
+        <td class="about">
+            My name is Abdullah Bayramov and I am a 3rd year IT student at ADA University. Since my childhood I am interested in playing around computers. I am mainly interested in Backend Development and my hobbies are watching and playing football and playing billiards.
         </td>
-      </tr>
-    </table>
+        
+    </tr>
+
+    <tr>
+        <td><h2 class="name">Abdullah Bayramov<br><span class="major">3rd Year IT Student at ADA University</span> </h2></td>
+    </table>  
+  </div>
+
+  <footer class="index_footer">Abdullah Bayramov</footer>
+  
   </body>
 </html>

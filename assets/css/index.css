@@ -1,5 +1,5 @@
 html {
-  background-color: #00ffff;
+  background-color: brown;
 }
 
 html {
@@ -8,12 +8,8 @@ html {
 }
 
 body {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  text-align: center;
-}
-
-.center_elements {
   text-align: center;
 }
 
@@ -23,10 +19,33 @@ body {
   height: 300px;
 }
 
+.photo_and_about {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.about {
+  max-width: 200px;
+  font-size: x-large;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+#photo_and_about_div {
+  display: block;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-right: 10%;
+}
+
 #navigation_bar {
-  background-color: #00ffff;
+  background-color: #333;
   list-style-type: none;
-  padding: 0 10px;
+  padding: 0;
   margin: 0;
 }
 
@@ -38,8 +57,7 @@ body {
 #navigation_bar a {
   display: block;
   color: rgb(189, 194, 255);
-  text-decoration: none;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -54,17 +72,47 @@ hr {
   border: 2px dashed darkblue;
 }
 
-li {
-  display: inline-block;
-  height: 25px;
-  width: 266px;
+ul {
   list-style-type: none;
-  background-color: rgb(66, 63, 216);
-  padding-bottom: 20px;
-  padding-top: 10px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-li:hover {
-  background-color: black;
-  color: antiquewhite;
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: darkblue;
+  color: red;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+.index_footer {
+  display: block;
+  position: fixed;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: blue;
+  color: white;
 }

@@ -1,10 +1,9 @@
 html {
-  background-color: brown;
+  background-color: #b7f497;
 }
 
 html {
-  font-family: "Kablammo", cursive;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Epilogue', sans-serif;
 }
 
 body {
@@ -27,6 +26,8 @@ body {
 .about {
   max-width: 200px;
   font-size: x-large;
+  text-align: left;
+  color: #042200;
 }
 
 td {

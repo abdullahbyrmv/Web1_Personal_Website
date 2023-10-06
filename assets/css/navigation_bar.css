@@ -1,8 +1,9 @@
 #navigation_bar {
-  background-color: rgb(163, 76, 66);
+  background-color: #b7f497;
   list-style-type: none;
   padding: 0;
   margin: 0;
+  top: 10px;
 }
 
 #navigation_bar li {
@@ -13,7 +14,7 @@
 #navigation_bar a {
   display: block;
   color: black;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
 }
 
@@ -31,8 +32,7 @@ ul.navigation_list {
 li.navigation_list {
   color: white;
   float: left;
-  border-right: 1px solid white;
-  background-color: rgb(163, 76, 66);
+  background-color: #b7f497;
 }
 
 li.navigation_list a {
@@ -44,12 +44,14 @@ li.navigation_list a {
 }
 
 #navigation_bar a:hover:not(.active) {
-  background-color: darkred;
-  color: rgb(227, 113, 113);
+  background-color: #92cc74;
+  color: #fff;
+  border-radius: 15px;
 }
 
 a.active {
   background-color: #580303;
+  border-radius: 15px;
 }
 
 #navigation_bar a.active {

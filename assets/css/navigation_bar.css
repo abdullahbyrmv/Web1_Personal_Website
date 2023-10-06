@@ -50,10 +50,17 @@ li.navigation_list a {
 }
 
 a.active {
-  background-color: #580303;
+  background-color: #386a20;
   border-radius: 15px;
 }
 
 #navigation_bar a.active {
   color: white;
+}
+
+#logo {
+  width: 200px;
+  height: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
 }

@@ -1,11 +1,12 @@
-.my_footer{
-    display: block;
+.my_footer {
+  display: flex;
   position: fixed;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
   bottom: 0;
   width: 100%;
   left: 0;
-  background-color: blue;
-  color: white;
+  background-color: transparent;
+  color: 042200;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
 }

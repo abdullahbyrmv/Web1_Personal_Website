@@ -3,7 +3,7 @@ html {
 }
 
 html {
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
 }
 
 body {
@@ -11,11 +11,59 @@ body {
   text-align: center;
 }
 
-.linkedin_and_github_photo {
+.contact_ways {
+  display: flex;
+  justify-content: center;
+}
+
+.contact_logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+ul.contact_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+  background-color: #b7f497;
+}
+
+ul.contact_list li a {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 50px;
+  color: #000;
+  padding-top: 20px;
+  padding-left: 6px;
+  text-decoration: none;
+  height: 35px;
+}
+
+ul.contact_list li {
+  text-align: center;
+}
+
+ul.contact_list li a.active {
+  background-color: #386a20;
+  color: white;
+}
+
+ul.contact_list li a:hover:not(.active) {
+  border-radius: 15px;
+  background-color: #386a20;
+  color: #fff;
+}
+
+.contact_ways li {
+  display: block;
+  border-radius: 15px;
+  margin-top: 2%;
+  border: 0.5px solid #93ce72;
+}
+
+ul.contact_list i {
+  float: left;
+  padding-top: 7px;
 }
 
 input[type="text"]:focus {

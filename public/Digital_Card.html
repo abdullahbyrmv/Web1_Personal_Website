@@ -3,22 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Education</title>
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="../assets/favicons/Education.png"
-    />
-    <link rel="stylesheet" href="../assets/css/education.css" />
-    <link rel="stylesheet" href="../assets/css/navigation_bar.css" />
+    <link rel="stylesheet" href="/assets/css/digital_card.css" />
+    <link rel="stylesheet" href="/assets/css/navigation_bar.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+    <title>Document</title>
   </head>
   <body>
     <ul class="navigation_list" id="navigation_bar">
@@ -31,7 +31,7 @@
         >
       </li>
       <li class="navigation_list">
-        <a class="active" href="Education.html" target="_self"
+        <a href="Education.html" target="_self"
           ><i class="fa-solid fa-school"></i> Education</a
         >
       </li>
@@ -51,7 +51,7 @@
         >
       </li>
       <li class="navigation_list">
-        <a href="Digital_Card.html" target="_self"
+        <a class="active" href="Digital_Card.html" target="_self"
           ><i class="fa-solid fa-address-card"></i> Digital Card</a
         >
       </li>
@@ -74,42 +74,36 @@
       </li>
     </ul>
 
-    <div class="content">
-      <table>
-        <tr>
-          <th>School/University</th>
-          <th>Degree</th>
-          <th>Score</th>
-          <th>Selected Coursework</th>
-        </tr>
-
-        <tr>
-          <td>
-            <img class="ada" src="../assets/images/ada.png" />
-            <p>Ada University</p>
-          </td>
-          <td>Bachelor of Science in Information Technology</td>
-          <td>3.56/4 CGPA</td>
-          <td>
-            Calculus I, Calculus II, Programming Principles I, Programming
-            Principles II, Introduction to ICT and Engineering, Writing and
-            Information Literacy I, Writing and Information Literacy II,
-            Discrete Structures, Competitive Programming I, Leadership, Data
-            Structures and Algorithms, IT systems: Hardware and Software, Linear
-            Algebra.
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <img class="school" src="../assets/images/36.jpg" />
-            <p>Secondary School Number 36</p>
-          </td>
-          <td>High School</td>
-          <td>551.3/700 TQDK Score</td>
-          <td>Math,Physics,Chemistry,English,Informatics,Geography,History.</td>
-        </tr>
-      </table>
-    </div>
+    <main>
+      <section>
+        <span></span>
+        <div id="card">
+          <img
+            src="http://wp1.themexlab.com/wp/cards/wp-content/uploads/2015/12/profile.jpg"
+            alt=""
+          />
+          <div class="title">
+            <h1>Hi, i'm <span id="name">Abdullah Bayramov!</span></h1>
+            <h2>Web Designer & Developer</h2>
+          </div>
+          <hr class="hr1" />
+          <div class="card-main">
+            <p>
+              I am a Junior Information Technology student at ADA University.
+            </p>
+            <div id="information-button">
+              <p>email: abayramov14100@ada.edu.az / phone:+994 989 26 40</p>
+            </div>
+          </div>
+          <div id="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

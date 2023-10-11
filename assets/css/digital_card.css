@@ -1,0 +1,109 @@
+div.card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #ddd;
+}
+
+main {
+  height: 100%;
+  min-height: 95vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  width: 500px;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg1.jpg);
+  font-family: "Epilogue", sans-serif;
+}
+
+#card {
+  background-color: white;
+  background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png)
+    repeat-x right top #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.hr1 {
+  border: none;
+  height: 1px;
+  width: 100%;
+  background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/hr1.png)
+    no-repeat center center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#information-button {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-btn.png)
+    no-repeat center center #08aeac;
+  transition: 0.4s;
+}
+
+#information-button p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+#information-button:hover {
+  background-color: red;
+}
+
+#icons i {
+  color: white;
+  background-color: #333333;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+#icons i:hover {
+  background-color: #08aeac;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+#name {
+  color: #08aeac;
+}
+
+.i-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  width: 100%;
+  background-color: brown;
+  color: white;
+  text-align: center;
+}

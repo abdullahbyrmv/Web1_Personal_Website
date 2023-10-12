@@ -31,8 +31,7 @@ body {
 
 #card {
   background-color: white;
-  background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png)
-    repeat-x right top #f4f4f4;
+  background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,8 +43,7 @@ body {
   border: none;
   height: 1px;
   width: 100%;
-  background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/hr1.png)
-    no-repeat center center;
+  background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/hr1.png);
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -54,8 +52,7 @@ body {
   margin-bottom: 15px;
   border-radius: 5px;
   padding: 10px;
-  background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-btn.png)
-    no-repeat center center #08aeac;
+  background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-btn.png);
   transition: 0.4s;
 }
 

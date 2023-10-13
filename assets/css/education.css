@@ -15,21 +15,37 @@ ul {
   list-style-type: none;
 }
 
-table,
-tr,
+table {
+  border-collapse: collapse;
+}
+
+th {
+  border: 3px solid #386a20;
+  padding: 10px;
+}
+
 td {
-  border: 1px solid darkblue;
+  border: 3px solid #386a20;
+  padding: 10px;
 }
 
 .content {
-  margin-top: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1500px;
+  margin-left: 15px;
+  margin-top: 110px;
 }
 
 .ada {
   display: block;
   width: 200px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 .school {
   width: 200px;
+  margin-top: 20px;
 }

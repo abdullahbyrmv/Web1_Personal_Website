@@ -34,6 +34,10 @@ body {
   color: #042200;
 }
 
+#description {
+  margin-bottom: 10px;
+}
+
 td {
   display: table-cell;
   vertical-align: inherit;

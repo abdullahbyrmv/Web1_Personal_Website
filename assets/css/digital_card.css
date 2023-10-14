@@ -59,16 +59,9 @@ body {
   background-color: #386a20;
 }
 
-/* #information-button p {
-} */
-
-/* #information-button p:hover {
-  color: white;
-} */
-
 #information-button:hover {
-  background-color: #92cc74;
-  color: #333333;
+  background-color: #358c2f;
+  color: white;
 }
 
 #icons i {

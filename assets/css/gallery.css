@@ -14,11 +14,28 @@ body {
   margin-top: 75px;
 }
 
+.personal_photos {
+  display: flex;
+  margin-bottom: 25px;
+}
+
 .photo {
   border-radius: 50%;
   width: 300px;
   height: 300px;
-  margin-left: 600px;
+  margin-left: 200px;
+  margin-right: 10px;
+}
+
+.photo_1 {
+  width: 500px;
+  height: 300px;
+}
+
+.photo_2 {
+  width: 300px;
+  height: 300px;
+  margin-left: 10px;
 }
 
 .header {

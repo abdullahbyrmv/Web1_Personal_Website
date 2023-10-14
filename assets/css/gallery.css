@@ -25,16 +25,45 @@ body {
   text-align: center;
 }
 
-.projects {
-  display: block;
-  margin-left: 5px;
+.project_1_div {
+  display: inline-block;
+  margin-left: 350px;
 }
 
 .project_1 {
-  width: 750px;
+  width: 900px;
   height: 300px;
 }
 
 .flexbox_description {
-  margin-left: 250px;
+  margin-left: 350px;
+  margin-bottom: 1px;
+}
+
+.project_2_div {
+  display: block;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 32px;
+}
+
+.project_2 {
+  width: 700px;
+  height: 400px;
+}
+
+#photo2 {
+  margin-left: 25px;
+}
+
+.TinDog_description {
+  margin-left: 550px;
+  margin-bottom: 15px;
+}
+
+hr {
+  width: 94%;
+  height: 3px;
+  background-color: #386a20;
+  margin-left: 49px;
 }

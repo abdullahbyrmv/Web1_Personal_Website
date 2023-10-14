@@ -13,3 +13,28 @@ body {
 .content {
   margin-top: 75px;
 }
+
+.photo {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-left: 600px;
+}
+
+.header {
+  text-align: center;
+}
+
+.projects {
+  display: block;
+  margin-left: 5px;
+}
+
+.project_1 {
+  width: 750px;
+  height: 300px;
+}
+
+.flexbox_description {
+  margin-left: 250px;
+}
